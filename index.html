@@ -1,20 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add Task</title>
     <link rel="stylesheet" href="style.css">
+    <title>Task List</title>
 </head>
 
 <body>
-    <div class="container">
-        <div id="newtask">
     <h1>Lista de Tareas</h1>
-    <input type="text" id="text" placeholder="Nueva tarea" required>
-    <button id="push">Agregar Tarea</button>
+    <div id="task-container">
+        <input type="text" id="task-input" placeholder="Nueva tarea">
+        <button id="add-task-button">Agregar tarea</button>
     </div>
-    <div id="tasks"></div>
-</div>
+    <ul id="task-list"></ul>
+    <br>
+    <center><a href="index.html">IR AL INICIO</a></center>
+
+    <script src="index.js"></script>
 </body>
+
 </html>
